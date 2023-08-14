@@ -32,7 +32,7 @@ More details about the model are presented in [model card](./model-card.md).
 ```commandline
 git clone https://github.com/Plachtaa/VALL-E-X.git
 cd VALL-E-X
-pip install --no-error-on-external -r requirements.txt
+pip install -r requirements.txt
 ```
 ### ❗❗❗ Special Notes ❗❗❗
 Japanese g2p tool `pyopenjtalk` may fail to build during installation, you may ignore it if you don't require Japanese TTS functionality.
