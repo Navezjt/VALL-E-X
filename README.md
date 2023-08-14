@@ -32,7 +32,7 @@ More details about the model are presented in [model card](./model-card.md).
 ```commandline
 conda create -n vallex python=3.10
 conda activate vallex
-git clone https://github.com/Plachtaa/VALL-E-X.git
+git clone https://github.com/justinjohn0306/VALL-E-X.git
 cd VALL-E-X
 pip install -r requirements.txt
 ```
