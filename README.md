@@ -28,8 +28,10 @@ More details about the model are presented in [model card](./model-card.md).
 - Pretrained VALL-E X checkpoint is now released. Download it [here](https://drive.google.com/file/d/10gdQWvP-K_e1undkvv0p2b7SU6I4Egyl/view?usp=sharing)
 
 ## 💻 Installation
-### Install with pip
+### Install with pip and [conda](https://www.anaconda.com/download)
 ```commandline
+conda create -n vallex python=3.10
+conda activate vallex
 git clone https://github.com/Plachtaa/VALL-E-X.git
 cd VALL-E-X
 pip install -r requirements.txt
